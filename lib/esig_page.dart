@@ -28,8 +28,8 @@ class _EsigPageState extends State<EsigPage> {
             ),
             body: TabBarView(
               children: [
-                HomePage(),
-                VagasPage(),
+                const HomeTab(),
+                VagasTab(),
               ],
             ),
         ),
